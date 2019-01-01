@@ -1,0 +1,21 @@
+{
+  "name": "cfx.pixi-react",
+  "version": "0.0.0",
+  "scripts": {
+    "autod": "autod"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "cfx.simple-build-tool": "^0.0.12",
+    "ddeyes": "^0.2.13",
+    "umi": "^1.3.17"
+  },
+  "dependencies": {
+    "@inlet/react-pixi": "^0.4.3",
+    "cfx.react.dom": "~0.0.14",
+    "cfx.react.link": "~0.0.14",
+    "cfx.react.link.dom": "~0.0.15",
+    "pixi.js": "^4.8.4",
+    "react-router": "~4.3.1"
+  }
+}
