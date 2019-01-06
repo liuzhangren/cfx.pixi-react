@@ -1,23 +1,19 @@
 ### eslint-disable import/first ###
 import cfxify from 'cfx.react.dom'
-import { Stage, Sprite, Graphics } from '@inlet/react-pixi'
-import pic from '../components/sprite'
+import { Stage, Graphics } from '@inlet/react-pixi'
+import sprite from '../components/sprite'
 
 CFX = cfxify {
   Stage
-  Sprite
   Graphics
-  pic
+  sprite
 }
 
 {
   c_Stage
-  c_Sprite
   c_Graphics
-  c_pic
+  c_sprite
 } = CFX
-
-
 
 draw = (g) =>
   g.lineStyle 1, 0xff00ff, 1
@@ -57,7 +53,7 @@ export default =>
           key: 'siderBar'
           draw: draw
       ,
-        c_pic
+        c_sprite
           key: 'sprite'
           image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/693612/IaUrttj.png'
           interactive: true
