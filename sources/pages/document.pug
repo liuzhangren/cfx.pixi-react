@@ -20,8 +20,14 @@ html(lang='en')
       rel="stylesheet"
       href="https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css"
     )
-
+    link(
+      rel="stylesheet"
+      href='../../bodyCss.css'
+    )
     title pixi-react
-    
+    style(type='text/css').
+      body {
+          background: url('../assets/background.jpg');
+      }
   body
     #root
